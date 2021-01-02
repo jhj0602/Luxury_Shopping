@@ -3,7 +3,7 @@
 ## :calendar: 개발 기간 12/26 ~ 
 ## :clipboard: 개발 일지
 
-* <a href="https://github.com/jhj960918/Luxury_Shopping/blob/master/document/readmdsecurity.md">스프링 시큐리티 </a>
+* <a href="https://github.com/jhj960918/Luxury_Shopping/blob/master/document/readmdsecurity.md">스프링 시큐리티 12/27 </a>
 
 ## :clipboard: 개발환경
 * IntelliJ 2020.2.1
