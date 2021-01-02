@@ -1,7 +1,10 @@
 ## :shopping_cart: Luxury_Shopping 쇼핑몰 프로젝트
 
 ## :calendar: 개발 기간 12/26 ~ 
-## :clipboard: <a href="https://github.com/jhj960918/Luxury_Shopping/blob/master/document/readmdsecurity.md">개발 일지</a>
+## :clipboard: 개발 일지
+
+* <a href="https://github.com/jhj960918/Luxury_Shopping/blob/master/document/readmdsecurity.md"></a>
+
 ## :clipboard: 개발환경
 * IntelliJ 2020.2.1
 * Postman
