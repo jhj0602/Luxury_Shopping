@@ -32,9 +32,9 @@ Spring Security는 FilterChainProxy라는 이름으로 내부에 여러 Filter�
 
 
 
-## 5. [실행결과](https://youtu.be/wAfYfT6tNiI)
+## 5. [실행결과]
 
+로그인 -> 아이디 비밀번호 입력 -> 메인페이지 이동
+![1212](https://user-images.githubusercontent.com/65895403/103455405-305b7080-4d30-11eb-8a7a-ed312e122a2e.PNG)
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wAfYfT6tNiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### view 구현은 천천히 할게요
