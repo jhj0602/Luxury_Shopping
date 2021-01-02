@@ -1,6 +1,6 @@
 # Spring Security Login,Signup
 
-![d_c_r](https://user-images.githubusercontent.com/26461307/96726540-0a8b2480-13ed-11eb-9241-0fda130421ec.png)
+![se](https://user-images.githubusercontent.com/65895403/103454952-0e5fef00-4d2c-11eb-9b97-ba44a774c717.PNG)
 
 #### Celery 란?
 - `Celery`는 안 보이는 곳에서 열심히 일하는 (백그라운드)일꾼이다. 처리해야 할 일을 Queue로 쌓아둔다. `큐`(queue)에 쌓인 일을 일꾼들이 가져다가 열심히 일을한다. 파이썬 언어로 작성되어 있다.
