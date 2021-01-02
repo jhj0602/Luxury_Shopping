@@ -11,7 +11,7 @@ public class LoginController {
 
     @GetMapping
     public String viewLogin(Model model) {
-        // View attribute
+        // View 
         model.addAttribute("login_message", "로그인이 필요합니다.");
         return "login";
     }
