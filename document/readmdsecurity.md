@@ -12,10 +12,13 @@ implementation 'org.springframework.boot:spring-boot-starter-security'
 implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
 ```
 ## 2. Spring Security 설정
-Spring Security는 FilterChainProxy라는 이름으로 내부에 여러 Filter들이 동작하고 있습니다.
+
+Spring Security는 FilterChainProxy라는 이름으로 내부에 여러 Filter들이 동작하고 있습니다. 별도의 로직을 작성 안해도 로그인/로그아웃 등의 처리가 가능  
+설정은 WebSecurityConfigurerAdapter라는 클래스를 상속받은 클래스에서 메서드를 오버라이딩하여 조정가능,
+
 <img src="https://godekdls.github.io/images/springsecurity/securityfilterchain.png">
 
-
+### <a href="https://github.com/jhj960918/Luxury_Shopping/blob/master/src/main/java/com/jin/ecommerce/config/WebSecurityConfig.java">WebSecurityConfig.java 작성</a>
 
 
 
