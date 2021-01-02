@@ -1,25 +1,23 @@
 # Spring Security Login,Signup
 
+### 프로젝트 구조
 ![se](https://user-images.githubusercontent.com/65895403/103454952-0e5fef00-4d2c-11eb-9b97-ba44a774c717.PNG)
 
-#### Celery 란?
-- `Celery`는 안 보이는 곳에서 열심히 일하는 (백그라운드)일꾼이다. 처리해야 할 일을 Queue로 쌓아둔다. `큐`(queue)에 쌓인 일을 일꾼들이 가져다가 열심히 일을한다. 파이썬 언어로 작성되어 있다.
-#### Redis 란?
-- `Redis`는 실제 컴퓨터 메모리를 이용한 캐쉬다. `Key`와 `Value`값을 이용해 처리할 작업을 Celery에게 보낸 다음 `캐쉬` 시스템에서 해당 키를 없애는 방식으로 동작한다.
 
-  좋은 점은 로컬과 DB사이에서 자료가 왔다갔다 하는 것보다 메모리에서 캐쉬를 가져다 쓰는 것이 훨씬 빠르다는 것이다. 따라서 특정 데이터를 반복적으로 돌려줘야 한다면 메모리 캐쉬를 사용하면 좋다.
-###### [출처](https://whatisthenext.tistory.com/127)
-
-
-
-## 1. 설치
-Celery 설치
-``` terminal
-pip install 'celery[redis]'
-
-pip install django-celery-beat
-pip install django-celery-results
+## 1. 의존성 추가
+Spring Security를 사용하려면 , 의존성을 추가해줘야 함 ,Thymeleaf에서 Spring Security 통합 모듈을 사용하기위한 의존성도 추가해줘야함!!
+#### build.gradle
+``` java
+implementation 'org.springframework.boot:spring-boot-starter-security'
+implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
 ```
+## 2. Spring Security 설정
+Spring Security는 FilterChainProxy라는 이름으로 내부에 여러 Filter들이 동작하고 있습니다.
+<img src="https://godekdls.github.io/images/springsecurity/securityfilterchain.png">
+
+
+
+
 
 Redis 설치
 ``` termianl
