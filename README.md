@@ -1,7 +1,7 @@
 ## :shopping_cart: Luxury_Shopping 쇼핑몰 프로젝트
 
 ## :calendar: 개발 기간 12/26 ~ 
-
+## :clipboard: <a href="https://www.youtube.com/watch?v=dygkSRegXVY&t=28s"></a>
 ## :clipboard: 개발환경
 * IntelliJ 2020.2.1
 * Postman
