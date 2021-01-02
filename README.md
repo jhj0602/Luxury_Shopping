@@ -1,4 +1,5 @@
-# :shopping_cart: Luxury_Shopping 쇼핑몰 프로젝트
+## :shopping_cart: Luxury_Shopping 쇼핑몰 프로젝트
+
 ## :calendar: 개발 기간 12/26 ~ 
 
 ## :clipboard: 개발환경
